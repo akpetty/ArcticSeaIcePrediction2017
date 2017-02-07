@@ -1,11 +1,12 @@
 # Arctic sea ice forecasting
-by Alek Petty
+**Alek Petty**
 
-Python scripts used to produce seasonal forecasts of Arctic (and Alaskan) sea ice extent.
+*Python scripts used to produce seasonal forecasts of Arctic (and Alaskan) sea ice extent. AS used in my recent paper published in JGR Earth's Future.*
 
+Citation:
 Petty, A. A., D. Schroder, J. C. Stroeve, T. Markus, J. Miller, N. T. Kurtz, D. L. Feltham, D. Flocco (2017), Skillful spring forecasts of September Arctic sea-ice extent using passive microwave sea ice observations, Earth’s Future, 4 , doi:10.1002/2016EF000495.
 
-## Scripts
+### Scripts
 
 Individual descriptions should be included at the top of each script. Not all processing/plotting scripts have been included yet.
 
@@ -15,7 +16,7 @@ I use Conda to intall/manage the various Python packages. Check out the file 'pa
 
 Information about installing Conda/Python, and a brief introduction to using Python can be found on my NASA Cryospheric Sciences meetup repo: https://github.com/akpetty/cryoscripts.
 
-## Data
+### Data
 
 The gridded forecast datasets were generated from the following, pubclically available datasets:
 
