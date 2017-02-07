@@ -1,7 +1,7 @@
 # Arctic sea ice forecasting
 **Alek Petty**
 
-*Python scripts used to produce seasonal forecasts of Arctic (and Alaskan) sea ice extent. AS used in my recent paper published in JGR Earth's Future.*
+*Python scripts used to produce the skillful seasonal forecasts of Arctic (and Alaskan) sea ice extent. Results from this analysis were recently published in JGR Earth's Future.*
 
 Citation:
 Petty, A. A., D. Schroder, J. C. Stroeve, T. Markus, J. Miller, N. T. Kurtz, D. L. Feltham, D. Flocco (2017), Skillful spring forecasts of September Arctic sea-ice extent using passive microwave sea ice observations, Earth’s Future, 4 , doi:10.1002/2016EF000495.
