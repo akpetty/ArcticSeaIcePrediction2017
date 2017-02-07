@@ -1,5 +1,5 @@
 # Arctic sea ice forecasting
-## Alek Petty
+by Alek Petty
 
 Python scripts used to produce seasonal forecasts of Arctic (and Alaskan) sea ice extent.
 
