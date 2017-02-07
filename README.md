@@ -20,9 +20,9 @@ Information about installing Conda/Python, and a brief introduction to using Pyt
 
 The gridded forecast datasets were generated from the following, pubclically available datasets:
 
-Sea ice concentration data (final): http://nsidc.org/data/nsidc-0051 
-Sea ice concentration data (near real-time): https://nsidc.org/data/nsidc-0081
-Melt onset data: http://neptune.gsfc.nasa.gov/csb/index.php?section=54
+Sea ice concentration data (final): http://nsidc.org/data/nsidc-0051    
+Sea ice concentration data (near real-time): https://nsidc.org/data/nsidc-0081   
+Melt onset data: http://neptune.gsfc.nasa.gov/csb/index.php?section=54   
 (note that the melt onset data are not made avilable each year near real-time, so contact me if required).
 
 Simulated melt pond data were provided by CPOM-Reading, with the detrended forecast data included in this repo.
