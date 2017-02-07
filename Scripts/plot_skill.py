@@ -2,7 +2,8 @@
 # Date: 01/10/17
 # Name: plot_skill.py
 # Author: Alek Petty
-# Description: Script to plot skill vals for different forecasts
+# Description: Script to plot skill values for different forecasts.
+
 
 import matplotlib
 matplotlib.use("AGG")

@@ -10,8 +10,7 @@ from scipy import stats
 import statsmodels.api as sm
 from statsmodels.sandbox.regression.predstd import wls_prediction_std
 from netCDF4 import Dataset
-#import time
-#from  matplotlib import cbook
+
 
 rawdatapath='../Data/'
 datapath='../DataOutput/'
