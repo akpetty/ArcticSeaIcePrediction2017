@@ -4,10 +4,8 @@
 # Author: Alek Petty
 # Description: Script to plot skill values for different forecasts.
 
-
 import matplotlib
 matplotlib.use("AGG")
-import pred_funcs as pfuncs
 from mpl_toolkits.basemap import Basemap, shiftgrid
 import numpy as np
 from pylab import *
@@ -15,8 +13,6 @@ import numpy.ma as ma
 from matplotlib import rc
 
 
-
-viridis=pfuncs.get_new_cmaps(cmap_str='viridis')
 rcParams['xtick.major.size'] = 2
 rcParams['ytick.major.size'] = 2
 rcParams['axes.linewidth'] = .5
@@ -29,9 +25,9 @@ rcParams['legend.fontsize']=8
 rcParams['font.size']=8
 rc('font',**{'family':'sans-serif','sans-serif':['Arial']})
 #rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
-skilldatapath='../Data_output/SKILL/'
+skilldatapath='../DataOutput/SkillVals/'
 #dataoutpathC='./Data_output/CONC_OUT/'
-figpath='../Figures/Paper/'
+figpath='../Figures/'
 
 endYear=2016
 startYearPred=1985

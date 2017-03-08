@@ -9,7 +9,7 @@ import pandas as pd
 from scipy import stats
 import statsmodels.api as sm
 from statsmodels.sandbox.regression.predstd import wls_prediction_std
-from netCDF4 import Dataset
+#from netCDF4 import Dataset
 
 
 rawdatapath='../Data/'
@@ -66,7 +66,7 @@ def plot_forecast(outVarStr):
 	ax1.set_xlim(1978, 2017)
 	ax1.set_xticks(np.arange(1980, 2018, 5))
 	ax1.set_xticklabels([])
-	ylim(3, 9)
+	#ylim(3, 9)
 
 	ax2=subplot(2, 1, 2)
 	ax2.yaxis.tick_right()
@@ -88,7 +88,7 @@ def plot_forecast(outVarStr):
 
 	subplots_adjust(left=0.1, right=0.90, bottom=0.17, top=0.96, hspace=0)
 
-	savefig(figpath+'/forecast'+str(startYearPred)+str(endYear)+'M'+str(fmonth)+outVarStr+'.pdf', dpi=300)
+	savefig(figpath+'/forecast'+str(startYear)+str(endYear)+'M'+str(fmonth)+outVarStr+'.pdf', dpi=300)
 	close(fig)
 
 

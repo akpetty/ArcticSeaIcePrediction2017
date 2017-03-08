@@ -11,7 +11,6 @@
 
 import matplotlib
 matplotlib.use("AGG")
-
 import argparse
 import forecast_funcs as ff
 from pylab import *
